@@ -1,7 +1,7 @@
 {
-  "name": "node-brigadier",
+  "name": "@redcarti/node-brigadier",
   "version": "0.0.12",
-  "description": "A javascript port of Mojangs Brigadier library",
+  "description": "A javascript port of Mojangs Brigadier library, originally maintained by @remtori",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "homepage": "http://github.com/remtori/brigadier",

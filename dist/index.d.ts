@@ -241,7 +241,7 @@ declare class CommandContext<S> {
 	getLastChild(): CommandContext<S>;
 	getCommand(): Command<S>;
 	getSource(): S;
-	getArgument(name: string, clazz?: Function): any;
+	getArgument(name: string): any;
 	equals(o: any): boolean;
 	getRedirectModifier(): RedirectModifier<S>;
 	getRange(): StringRange;
